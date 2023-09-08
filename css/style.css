@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/**variables, mixins y funciones **/
+/*todo lo correspondiente al codigo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-image: url(../assets/img/indexmain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: bisque;
+    padding-left: 180px; }
+    header section .deliveryheader img {
+      width: 800px;
+      height: 250px; }
+  header h1 {
+    text-align: center;
+    padding-left: 40px;
+    font-size: 60px; }
+  header p {
+    padding-left: 80px; }
+  header .tituloprincipal a {
+    color: bisque;
+    text-decoration: none; }
+  header .tituloprincipal a h1:hover {
+    color: chocolate; }
+
+footer {
+  background-color: #04050e;
+  display: flex;
+  justify-content: space-evenly; }
+  footer p {
+    color: bisque;
+    margin: 30px; }
+  footer a {
+    color: #e4d0a4;
+    text-decoration: none;
+    margin: 0 10x; }
+
+footer a:hover {
+  color: #32c49f; }
+
+.descriptionfooter {
+  color: brown;
+  padding-top: 80px;
+  text-align: center; }
+
+main {
+  background-image: url(../assets/img/hero.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  main section {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left; }
+
+.cardmain {
+  color: bisque; }
+  .cardmain ul {
+    margin: 10px; }
+    .cardmain ul li {
+      text-decoration: none;
+      list-style-type: none;
+      margin: 0 0 20px 0;
+      font-size: 60px;
+      font-weight: bold; }
+      .cardmain ul li a {
+        color: azure; }
+
+.cardmain a:hover {
+  color: #f0708c; }
+
+.sectiononline {
+  color: chocolate;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .sectiononline .textoonline {
+    margin: 25px; }
+  .sectiononline .mapaonline {
+    background-color: black;
+    margin: 20px;
+    padding: 60px;
+    border: 5px solid chocolate;
+    overflow: hidden;
+    box-shadow: 60px chocolate; }
+
+.fondobirra {
+  background-image: url(../assets/img/lagerjapi.jpg); }
+
+.sectioncard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: bisque; }
+  .sectioncard ul li {
+    margin: 25px;
+    text-decoration: none;
+    list-style-type: none; }
+
+.card1, .card2 {
+  background-color: black;
+  margin: 20px;
+  padding: 30px;
+  border: 5px solid chocolate;
+  overflow: hidden;
+  box-shadow: 60px chocolate; }
+  .card1 img, .card2 img {
+    width: 300px;
+    height: 300px; }
+
+.fondovodka {
+  background-color: black;
+  background-image: url(../assets/img/vodkapng.png); }
+
+.fondofernet {
+  background-image: url(../assets/img/fernetsolo.jpg); }
+
+/*lo correspondiente al mediaquerry*/
+@media (max-width: 1024px) {
+  header section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; }
+    header section .deliveryheader img {
+      width: 550px; } }
+
+@media (max-width: 1024px) {
+  header section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; }
+    header section .deliveryheader img {
+      width: 350px; }
+  main {
+    background-repeat: repeat;
+    background-size: 100%; }
+    main section {
+      padding: 15px;
+      display: flex;
+      flex-direction: column; }
+      main section img {
+        width: 250px; }
+  .sectiononline {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 320px) {
+  header {
+    background-size: cover;
+    background-position: end; }
+    header section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0; }
+      header section .deliveryheader img {
+        width: 100%;
+        height: 200px; }
+  .descriptionfooter {
+    font-size: small;
+    text-align: start; }
+  main {
+    background-color: black;
+    background-size: 100%;
+    background-repeat: repeat; }
+    main section {
+      display: flex;
+      flex-direction: column;
+      padding: 0px; }
+      main section img {
+        width: 250px; }
+      main section .cardmain {
+        margin: 15px; }
+  .mapaonline iframe {
+    width: 100%; }
+  .sectioncard {
+    display: flex;
+    flex-direction: column; }
+    .sectioncard img {
+      width: 100%;
+      height: 100%; } }

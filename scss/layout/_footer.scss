@@ -1,0 +1,23 @@
+footer{
+    background-color:rgb(4, 5, 14);
+    display: flex;
+    justify-content:space-evenly;
+    
+    p{
+        color: bisque;
+        margin: 30px;
+        }
+    a{
+        color: rgb(228, 208, 164);
+        text-decoration: none;
+        margin: 0 10x;
+    }
+}
+footer a:hover {
+    color: rgb(50, 196, 159);
+}
+.descriptionfooter{
+    color: brown;
+    padding-top: 80px;
+    text-align: center;
+}

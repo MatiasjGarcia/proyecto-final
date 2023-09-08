@@ -1,0 +1,55 @@
+
+
+@media(max-width:320px){
+    header{
+        background-size: cover;
+        background-position: end;
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            padding: 0;
+        .deliveryheader img{
+            width: 100%;
+            height: 200px;
+        }
+        }
+        }
+
+        .descriptionfooter{
+            font-size: small;
+            text-align: start;
+        }
+
+        main{
+            background-color: black;
+            background-size: 100%;
+            background-repeat: repeat;
+            section{
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            img{
+                width: 250px;
+            }
+            .cardmain{
+                margin: 15px;
+            }
+            }
+        }
+
+        .mapaonline{
+        iframe{
+            width: 100%;
+        }
+        }
+
+    .sectioncard{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    }

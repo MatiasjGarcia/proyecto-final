@@ -1,0 +1,32 @@
+
+
+@media(max-width:1024px){
+    header{
+        section{
+            display: flex;
+            justify-content:space-between;
+            padding: 0;
+        .deliveryheader img{
+            width: 350px;
+        }
+        }
+        }
+
+        main{
+            background-repeat: repeat;
+            background-size: 100%;
+            section{
+                padding: 15px;
+            img{
+                    width: 250px;
+                }
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    .sectiononline{
+        display: flex;
+        flex-direction: column;
+    }
+}

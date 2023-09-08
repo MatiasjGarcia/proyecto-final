@@ -1,0 +1,40 @@
+header{
+    background-image: url(../assets/img/indexmain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: $color-texto;
+    padding-left: 180px;
+    .deliveryheader{
+        img{
+        width: 800px;
+        height: 250px;
+        }
+    }
+    }
+
+    h1{
+        text-align: center;
+        padding-left: 40px;
+        font-size: 60px;
+    }
+    p{
+        padding-left: 80px;
+    }
+
+.tituloprincipal{
+    a{
+        color: bisque;
+        text-decoration: none;
+    }
+}
+.tituloprincipal a h1:hover{
+    color: chocolate;
+}
+}
+
+
+

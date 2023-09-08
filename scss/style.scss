@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**variables, mixins y funciones **/
+@import "./utilities/variables";
+
+/*todo lo correspondiente al codigo*/
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-online";
+@import "./layout/main-birra";
+@import "./layout/main-vodka";
+@import "./layout/main-fernet";
+
+/*lo correspondiente al mediaquerry*/
+@import "./layout/mediaQ/media1024";
+@import "./layout/mediaQ/media768";
+@import "./layout/mediaQ/media320";
