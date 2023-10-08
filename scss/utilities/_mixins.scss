@@ -1,0 +1,14 @@
+@mixin boton($color-fondo, $color-texto) {
+    background-color: $color-fondo;
+    color: $color-texto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+
+    &:hover {
+    color: red;
+    }
+}
+
+

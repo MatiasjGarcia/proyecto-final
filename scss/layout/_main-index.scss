@@ -29,3 +29,8 @@ main{
 .cardmain a:hover{
     color: rgb(240, 112, 140);
 }
+
+.asistencia{
+@include boton(rgb(163, 216, 196), rgb(48, 38, 26))
+    
+}
